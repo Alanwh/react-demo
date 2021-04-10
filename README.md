@@ -80,3 +80,6 @@ Prompt 钩子函数组件 调用alert
 * context
 * 高阶组件 1. 函数 2. 参数是组件 3. 返回值也是组件
 * errorboundry  componentDidCatch
+
+### 登录demo
+* 依赖: redux react-redux redux-logger redux-thunk redux-devtools-extension
