@@ -10,7 +10,9 @@ class App extends React.Component{
 
   render() {
     return(
-     <div>{this.state.count}</div>
+     <div className="jumbotron">
+       {this.state.count}
+      </div>
     )
   }
 }

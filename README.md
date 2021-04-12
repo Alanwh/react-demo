@@ -3,9 +3,12 @@
 ### 课程大类
 * lesson1 ~ lesson52 react + react-router + redux
 * lesson53 ~ lesson60 常见优化
-* lesson61 ~ lesson112 demo 实现
+* lesson61 ~ lesson83 登录注册demo 实现
+* lesson84 ~ lesson112 商城 demo 实现
 * lesson113 ~ lesson128 新特性 hook
 * lesson129 ~ lesson139 dva
+* lesson140 ~ lesson156 ts + react 
+* lesson157 ~ lesson169 umijs
 
 ### 元素渲染
 ### 组件
