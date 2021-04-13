@@ -8,7 +8,7 @@ router.post('/', (req, res)=>{
     const {identifier, password } = req.body;
     userModel.findOne({$or:[{ username:identifier},{email:identifier}], password: password},(err, user)=>{
         if(err){
-            console.log(error);
+            console.log(err);
             return;
         }else{
             if(!user){

@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/reactLogin',{useNewUrlParser:true});
+mongoose.connect('mongodb://localhost/reactLogin',{useNewUrlParser:true, useUnifiedTopology: true});
 
 const db = mongoose.connection;
 
