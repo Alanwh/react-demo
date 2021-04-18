@@ -86,3 +86,21 @@ Prompt 钩子函数组件 调用alert
 
 ### 登录demo
 * 依赖: redux react-redux redux-logger redux-thunk redux-devtools-extension
+
+### hook
+* useState
+  - const [count, setCount] = useState(0)   setCount(count+1)
+* useEffect
+  - 没有第二个参数 相当于 componentDidMount
+  - []  相当于 componentDidMount + componentWillUpdate 
+  - [count] 相当于监听 count 变化时才触发 componentDidMount
+  - return 相当于 componentWillUnmount
+* React.memo(Child)  相当于pureComponent
+* useCallback
+  - useCallback(fn, deps) deps 变化才会执行fn, 默认会执行一次
+* useReducer
+  - [state, dispach] = useReducer(reducer, initialState) // reducer, initialState 自定义实现, 同 redux
+* useContext
+  - ThemeContext = React.createContext()
+  - <ThemeContext.Provider value='111' />
+* contextType
